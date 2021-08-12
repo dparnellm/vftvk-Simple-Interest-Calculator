@@ -26,7 +26,7 @@ function validatePrincipal() {
 	var principalElement = document.getElementById("principal");
 	var principalElementValue = principalElement.value;
 	if ((principalElementValue == 0) || (principalElementValue < 0)) {
-		alert('Show a positive number.');
+		alert('Show a positive number');
 		principalElement.focus();
 	}
 }
