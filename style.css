@@ -11,14 +11,30 @@ h1 {
     font-family:verdana
 }
 
+td:nth-child(1) {
+	width:100px
+}
+
+td:nth-child(2) {
+	width:200px
+}
+
+td:nth-child(3) {
+	width:50px
+}
+
 /* For having a rounded box for the important part of the screen */
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
+    width:400px;
     padding:20px;
     border-radius:25px;
     margin:auto
+}
+
+.innerdiv {
+	margin-left:40px
 }
 
 /* For highlighting the numbers in yellow */
